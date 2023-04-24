@@ -6,13 +6,13 @@ export default function Questions({ question, onClickVariant }) {
   return (
     <div className="windowGame">
       <div className="questionGame">{question.title}</div>
-      <ul className="answerOptions">
+      <ol type="A" className="answerOptions">
         {question.variants.map((item, index) => (
           <li key={item} onClick={() => onClickVariant(index)}>
             {item}
           </li>
         ))}
-      </ul>
+      </ol>
     </div>
   );
 }

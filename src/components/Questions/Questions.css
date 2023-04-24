@@ -1,30 +1,24 @@
-.question {
-  width: 40vw;
-  height: 20vh;
-  background-color: aqua;
-}
-
 .windowGame {
   position: absolute;
-  top: 57%;
-  height: 30vh;
+  top: 50vh;
+  left: 25vw;
   width: 50vw;
-  background-color: rgb(107, 106, 106);
-  border-radius: 30px;
-  display: grid;
+  height: 30vh;
+  background-color: blue;
 }
 .questionGame {
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 30px;
-  height: 16vh;
+  height: 15vh;
   width: 100%;
   background-color: black;
   color: aliceblue;
 }
 .answerOptions {
-  font-size: 25px;
+  margin: 0;
+  font-size: 20px;
 }
 
 .answerOptions li {
